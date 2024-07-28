@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     metadataBase: new URL("https://www.example.com/"),
     title: "Portfolio template - Eldora UI",
     description:
-    "Eldora UI is a portfolio template built with React, Typescript, Tailwind CSS, and Framer Motion. 100% open-source, and customizable.",
+        "Eldora UI is a portfolio template built with React, Typescript, Tailwind CSS, and Framer Motion. 100% open-source, and customizable.",
     generator: "Next.js",
     applicationName: "Portfolio template",
     keywords: [
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Portfolio template - Eldora UI",
         description:
-      "Eldora UI is a portfolio template built with React, Typescript, Tailwind CSS, and Framer Motion. 100% open-source, and customizable.",
+            "Eldora UI is a portfolio template built with React, Typescript, Tailwind CSS, and Framer Motion. 100% open-source, and customizable.",
         url: "https://www.eldoraui.site/",
         siteName: "www.eldoraui.site",
         images: [
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
         card: "summary_large_image",
         title: "Portfolio template - Eldora UI",
         description:
-      "Portfolio template - Eldora UI is a portfolio template built with React, Typescript, Tailwind CSS, and Framer Motion. 100% open-source, and customizable.",
+            "Portfolio template - Eldora UI is a portfolio template built with React, Typescript, Tailwind CSS, and Framer Motion. 100% open-source, and customizable.",
         creator: "@karthikmudunuri",
         creatorId: "0000000000",
         images: ["./public/metadata.jpg"],
@@ -83,7 +83,7 @@ export const metadata: Metadata = {
 };
 
 type RootLayoutProps = {
-  children: ReactNode;
+    children: ReactNode;
 };
 
 export default function RootLayout({ children }: RootLayoutProps) {
