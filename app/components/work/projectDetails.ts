@@ -29,6 +29,40 @@ export type ProjectProps = {
 export const projects = [
     {
         id: 0,
+        name: "Taskify",
+        description:
+            "Một ứng dụng quản lý công việc cá nhân, cho phép người dùng tạo, xem, sửa, xóa công việc, đánh dấu công việc đã hoàn thành.",
+        technologies: [
+            SiTypescript,
+            SiReact,
+            SiNextdotjs,
+            SiTailwindcss,
+            SiPrisma,
+            SiPostgresql,
+        ],
+        techNames: [
+            "TypeScript",
+            "React",
+            "Next.js",
+            "Tailwind CSS",
+            "Prisma",
+            "PostgreSQL",
+        ],
+        techLinks: [
+            "https://www.typescriptlang.org/",
+            "https://reactjs.org/",
+            "https://nextjs.org/",
+            "https://tailwindcss.com/",
+            "https://www.prisma.io/",
+            "https://www.postgresql.org/",
+        ],
+        github: "https://github.com/RiverNguyen/trello-clone",
+        demo: "https://taskify.tech",
+        image: "/projects/taskify.png",
+        available: true,
+    },
+    {
+        id: 1,
         name: "Messenger Clone",
         description:
             "Một ứng dụng nhắn tin trực tuyến theo thời gian thực, cho phép người dùng trò chuyện với nhau qua các tin nhắn văn bản, hình ảnh.",
@@ -62,7 +96,7 @@ export const projects = [
         available: true,
     },
     {
-        id: 1,
+        id: 2,
         name: "E-commerce Website",
         description:
             "Một trang web thương mại điện tử với các chức năng cơ bản như xem sản phẩm, thêm vào giỏ hàng, thanh toán.",
@@ -99,7 +133,7 @@ export const projects = [
         available: true,
     },
     {
-        id: 2,
+        id: 3,
         name: "E-commerce Website",
         description:
             "Một trang web thương mại điện tử bán giày với các chức năng cơ bản như xem sản phẩm, thêm vào giỏ hàng, thanh toán.",
