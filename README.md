@@ -28,8 +28,6 @@ Website thương mại điện tử cung cấp trải nghiệm mua sắm toàn d
 ## 🛠️ Các Công Cụ và Thư Viện
 
 - **Git**: Quản lý phiên bản mã nguồn.
-- **Docker**: Container hóa ứng dụng.
-- **CI/CD**: Tự động hóa triển khai và kiểm thử.
 - **Postman**: Test API và mô phỏng giao tiếp client-server.
 - **Prisma**: ORM cho TypeScript và Node.js.
 - **Stripe**: Tích hợp thanh toán trực tuyến.
